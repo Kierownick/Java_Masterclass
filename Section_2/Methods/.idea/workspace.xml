@@ -28,6 +28,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -43,6 +48,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="800" height="318" key="GridCell.Tab.0.bottom" timestamp="1666133614151">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="800" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1666133614151" />
+    <state width="800" height="318" key="GridCell.Tab.0.center" timestamp="1666133614150">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="800" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1666133614150" />
+    <state width="800" height="318" key="GridCell.Tab.0.left" timestamp="1666133614150">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="800" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1666133614150" />
+    <state width="800" height="318" key="GridCell.Tab.0.right" timestamp="1666133614150">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="800" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1666133614150" />
     <state x="573" y="389" key="com.intellij.ide.util.TipDialog" timestamp="1666131660051">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
