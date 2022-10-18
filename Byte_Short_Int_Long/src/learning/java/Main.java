@@ -4,8 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int myValue = 100000000;
-
         int myMinIntValue = Integer.MIN_VALUE;
         int myMaxIntValue = Integer.MAX_VALUE;
         System.out.println("Integer Minimum Value:" + myMinIntValue);
@@ -32,9 +30,17 @@ public class Main {
         System.out.println("Min long number:" + myMinLongValue);
         System.out.println("Max long number:" + myMaxLongValue);
 
+        long myLongValue = 2_147_483_647_222L;
+        System.out.println(myLongValue);
+
         double myMinDoubleValue = Double.MIN_VALUE;
         double myMaxDoubleValue = Double.MAX_VALUE;
         System.out.println("Min double number:" + myMinDoubleValue);
         System.out.println("Max double number:" + myMaxDoubleValue);
+
+        //Casting - To convert a number from one type to another
+        int myTotal = (myMinIntValue / 2);
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue /2);
     }
 }
