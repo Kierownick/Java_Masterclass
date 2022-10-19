@@ -9,10 +9,15 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        calculateScore(gameOver, score, levelCompleted, bonus);
+        int highScore =  calculateScore(gameOver, score, levelCompleted, bonus); //method assigned to a variable to received returned value
+        System.out.println("Your final score was: " + highScore);
 
-        calculateScore(true, 10000, 8, 200);
+        score = 10000;
+        levelCompleted = 8;
+        bonus = 200;
 
+        highScore =  calculateScore(gameOver, score, levelCompleted, bonus); //method assigned to a variable to received returned value
+        System.out.println("Your final score was: " + highScore);
     }
 
     //void returns nothing. Int is being used as in following method I intend to return int finalScore
@@ -21,7 +26,6 @@ public class Main {
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
-            System.out.println("Your final score was: " + finalScore);
             return finalScore; //first return in if statement
         } else {
             return -1; //it has to return two values when IF is being used. -1 means error in programing terminology
