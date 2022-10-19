@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         int highScorePosition = calculateHighScorePosition(1000);
-        displayHighScorePosition("Endrju", highScorePosition);
+        displayHighScorePosition("EK", highScorePosition);
 
         highScorePosition = calculateHighScorePosition(999);
         displayHighScorePosition("AJ", highScorePosition);
